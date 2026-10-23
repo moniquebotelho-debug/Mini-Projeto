@@ -29,3 +29,7 @@ ETAPA 3 - CARREGAR OS DADOS
 3.8 str.upper(): Transforma todas as letras dos nomes das colunas em MAIÚSCULAS.
 3.9 df = df.rename(columns=RENOMEAR): Alter o nome das colunas como citado no dicionário.
 3.10 df.head(): Exibe as 5 primeiras linhas do seu DataFrame no terminal. 
+
+ETAPA XXXXX - INSERÇÃO DOS ARQUIVOS DO MINI PROJETO NO GITHUB
+X.1 Clique no ícone de Controle de Código Fonte e em Iniciar o Repositório;
+X.2 Fazer Commit e Sincronizar, adicionar uma mensagem de commit, clicar no botão de confirmação e utilizar a opção de sincronizar para enviar os dados para a plataforma Github.
