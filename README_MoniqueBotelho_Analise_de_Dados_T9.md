@@ -19,6 +19,7 @@ ETAPA 2 - IMPORTAÇÃO DE DADOS
 2.1 Realizar a importação dos dados na plataforma Kaggle (base_varejo.csv) para o IDE do VS Code, dentro da pasta Mini Projeto.
 
 ETAPA 3 - CARREGAR OS DADOS
+
 3.1 Criar a classe Carrega_dados.py;
 3.2 Carregar a bibilioteca pandas: import pandas as pd 
 3.3 PASTA = os.path.join(PASTA, 'Base_varejo_original.csv'): Junta o caminho da PASTA com o nome do arquivo (Base_varejo_original.csv).
@@ -30,6 +31,7 @@ ETAPA 3 - CARREGAR OS DADOS
 3.7 print(df.head()) : Mostra as 5 primeiras linhas da tabela no console para você conferir se os dados foram lidos do jeito certo.
 
 ETAPA 4 - FORMATAÇÃO DOS DADOS
+
 4.1 Criar a classe Formatacao_dados.py;
 4.2 from rich.console import Console : Importa a classe Console da biblioteca Rich, que serve para exibir textos coloridos, tabelas e formatações no terminal/console do Python. 
 4.3 import pandas as pd : Importa a biblioteca Pandas.
@@ -45,6 +47,7 @@ ETAPA 4 - FORMATAÇÃO DOS DADOS
 4.10 return texto: Devolve a string formatada.
 
 ETAPA 5 - LIMPEZA DE DADOS
+
 5.1 Criar a classe Limpeza_dados.py;
 5.2 import pandas as pd: Importa a biblioteca Pandas.
 5.3 __init__(self, df): O construtor da classe. Ele recebe um DataFrame (df), cria uma cópia de segurança dele (self.df = df.copy()) para não modificar o arquivo original por acidente, e guarda a quantidade inicial de linhas (self.registros_iniciais).
@@ -56,6 +59,7 @@ ETAPA 5 - LIMPEZA DE DADOS
 5.8 mostrar_relatorio(self): Exibe no terminal um resumo com o total de linhas antes da limpeza, quantas foram apagadas e quantas restaram.
 
 ETAPA 6 - RESUMO DE DADOS
+
 6.1 Criar a classe Resumo_dados.py;
 6.2 import pandas as pd: Importa a biblioteca Pandas.
 6.3 rich.panel import Panel: Usada para criar caixas visuais e estilizadas no terminal.
@@ -74,5 +78,6 @@ ETAPA 6 - RESUMO DE DADOS
 • Mostra o painel: Roda mostrar_resultado(df_original) para exibir o resumo na tela.
 
 ETAPA 7 - INSERÇÃO DOS ARQUIVOS DO MINI PROJETO NO GITHUB
+
 7.1 Clique no ícone de Controle de Código Fonte e em Iniciar o Repositório;
 7.2 Fazer Commit e Sincronizar, adicionar uma mensagem de commit, clicar no botão de confirmação e utilizar a opção de sincronizar para enviar os dados para a plataforma Github.
