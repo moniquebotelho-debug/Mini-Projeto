@@ -1,13 +1,16 @@
 OBJETIVO DO MINI-PROJETO:
+
 Automatizar o carregamento, a limpeza e a formatação de uma base de dados de varejo para garantir relatórios 100% confiáveis e prontos para tomada de decisão.
 
 O QUE O PROBLEMA RESOLVE?
+
 • Decisões erradas: Elimina dados nulos ou vazios que distorcem os resultados.
 • Faturamento inflado: Remove registros duplicados que repetem vendas por erro do sistema.
 • Erros de leitura: Converte números do padrão americano para o padrão brasileiro (R$ 1.250,50).
 • Auditoria lenta: Transforma relatórios técnicos em um painel visual limpo e rápido de entender no terminal.
 
 QUAIS AS TECNOLOGIAS USADAS?
+
 Python (linguagem base) com as bibliotecas Pandas (para manipulação e limpeza dos dados) e Rich (para criação das caixas e tabelas visuais no terminal). O desenvolvimento é feito no VS Code com ambiente virtual (venv) e o código é controlado e salvo via Git e GitHub.
 
 MÉTODOS APLICADOS:
